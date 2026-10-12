@@ -1,0 +1,39 @@
+:root {
+  --ink-navy: #1b2a4a;
+  --clay: #bf5b2e;
+  --clay-dark: #a34d26;
+  --paper: #fafaf7;
+  --stamp-green: #3d7a5c;
+  --slate: #6b7280;
+  --ink-black: #1a1a1a;
+  --hairline: #e5e3dc;
+  --white: #ffffff;
+  --danger: #b3432f;
+
+  --font-display: 'Fraunces', 'Noto Serif SC', serif;
+  --font-body: 'Noto Sans SC', 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', 'JetBrains Mono', monospace;
+
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-pill: 16px;
+
+  --container-max: 1280px;
+  --container-pad: 64px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-pad: 20px;
+  }
+}
